@@ -18,7 +18,7 @@ const Skill = () => {
                 <p className='text-lg leading-7 mb-6 '>My Journey</p>
                 <p className='text-lg leading-7 '> When i'm not</p>
                 <div className='mt-5'>
-                    <h1 className='font-bold text-2xl mb-5 text-blue-400'>Skills</h1>
+                    <h1 className='font-bold text-2xl mb-5 text-blue-400'>My Skills</h1>
                     <div className='flex flex-wrap gap-4 mb-5 text-sm'>
                         <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>JavaScript</p>
                         <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full'>Java</p>
