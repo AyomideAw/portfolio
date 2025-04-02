@@ -19,7 +19,7 @@ const Navbar = () => {
         {/* Menu section */}
         <nav className='hidden md:block'>
             <ul className="flex gap-7 text-xl items-center font-semibold text-white">
-                <a href="/"><li className='cursor-pointer'>Home</li></a>
+                <a href="#home"><li className='cursor-pointer'>Home</li></a>
                 <a href="#project"><li className='cursor-pointer'>Projects</li></a>
                 <a href="#experience"><li className='cursor-pointer'>Experience</li></a>
                 <a href="#skill"><li className='cursor-pointer'>Skills</li></a>

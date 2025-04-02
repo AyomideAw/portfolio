@@ -73,7 +73,7 @@ import "../Css/Hero.css"
 
 const Hero = () => {
   return (
-    <section className='h-max md:h-screen bg-gradient-to-l bg-gray-950 text-white flex flex-col justify-center items-center relative z-10 pb-10'>
+    <section id='home' className='h-max md:h-screen bg-gradient-to-l bg-gray-950 text-white flex flex-col justify-center items-center relative z-10 pb-10'>
       {/* background animation */}
       <div>
         <span></span>
@@ -110,8 +110,8 @@ const Hero = () => {
           transition={{duration:1.4, delay:0.5}}
           className='px-3 py-2 flex items-center gap-2 bg-blue-500 rounded-md text-white hover:bg-blue-600 shadow-blue-500 border-2 border-blue-400 transition-all shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#33CCCC,0_0_15px_#33CCCC,0_0_30px_#33CCCC] '>View Resume</motion.button>
           <div className='flex gap-3 text-2xl transition-all mt-5 md:mt-0'>
-            <FaLinkedin className='hover:text-blue-400' />
-            <FaGithub className='hover:text-blue-400' />
+            <a href="https://www.linkedin.com/in/ayomide-awofisayo-a64a082a9/"><FaLinkedin className='hover:text-blue-400' /></a>
+            <a href="https://github.com/AyomideAw"><FaGithub className='hover:text-blue-400' /></a>
           </div>
         </div>
         {/* <div className='relative group'>
