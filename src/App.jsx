@@ -18,7 +18,7 @@ const App = () => {
       <Skill/>
       <Contact/>
       <Footer/>
-      <ScrollToTop smooth color='white' style={{backgroundColor: '#3BB2F6', display:'flex', alignItems: 'center', justifyContent: 'center'}}/>
+      <ScrollToTop smooth color='white' style={{backgroundColor: '#3B82F6', display:'flex', alignItems: 'center', justifyContent: 'center'}}/>
     </div>
   )
 }
