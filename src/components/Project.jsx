@@ -1,9 +1,27 @@
 import React from 'react'
 import pool from '../assets/pool.png'
+import TODO from '../assets/TODO.png'
+import calc from '../assets/calc.png'
 import { FaGithub } from 'react-icons/fa'
 
 const Project = () => {
     const projects = [
+        {
+            title: "To-Do",
+            description: "A simple desktop To-Do List application built using Python's Tkinter library. Users can add, view, and delete tasks in a clean, user-friendly interface. Task data is stored locally using a text file, enabling persistence between sessions. Focused on functional design, basic file I/O operations, and interactive UI layout with buttons and listboxes.",
+            techStack: ["Python", "tkinter"],
+            link: "file:///Users/ayomide_aw/Desktop/CIS2750/FinalAssignment/8ball/snooker.html",
+            github: 'https://github.com/AyomideAw/To-Do-List',
+            image: TODO,
+        },
+        {
+            title: "cALc",
+            description: "A simple calculator application built using React and JavaScript to simulate real-time arithmetic operations. Users can perform basic and scientific calculations with a responsive UI that updates dynamically. Focused on state management, operator handling, and user-friendly input logic using component-based design.",
+            techStack: ["React.js", "tkinter", "JavaScript", "CSS"],
+            link: "file:///Users/ayomide_aw/Desktop/CIS2750/FinalAssignment/8ball/snooker.html",
+            github: 'https://github.com/AyomideAw/To-Do-List',
+            image: calc,
+        },
         {
             title: "8ball",
             description: "A simple 2-player 8-ball pool game simulation built using code logic to mimic real pool gameplay. Players take turns aiming and pocketing balls, with win conditions based on standard 8-ball rules. Focused on turn-based mechanics, ball tracking, and basic physics",
