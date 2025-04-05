@@ -15,7 +15,7 @@ const Experience = () => {
         {
             role: "IT Support Specialist",
             company: "University of Guelph",
-            year: "2024 - present",
+            year: "Aug 2024 - present",
             description: "Delivered comprehensive technical support by diagnosing and resolving a wide range of issues",
             icon: "💻",
         },

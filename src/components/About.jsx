@@ -14,8 +14,8 @@ const About = () => {
             </div>
             {/* paragraph section */}
             <div className='p-5 md:p-10 bg-gray-950 rounded-md shadow-[0px_0px_20px_10px_rgba(0,0,0,0.3)] shadow-blue-500'>
-                <p className='text-lg leading-7 mb-6 '>Hi! I'm Ayomide Awofisayo, but you can call me Ayo. Welcome to my site, where I showcase my ongoing or imperfect project, my career journey, and other things I'm exploring.</p>
-                <p className='text-lg leading-7 mb-6 '>I'm a Software Engineering student at the University of Guelph with a passion for building clean, useful, and creative software. I'm especially into full-stack development and web development. Right now, I'm working on a personal investment portfolio assistant, a smart web application I'm co-building to help people make smart investment decisions.</p>
+                <p className='text-lg leading-7 mb-6 '>Hi! I'm Ayomide Awofisayo, but you can call me Ayo. Welcome to my site, where I showcase my ongoing, my career journey, and other things I'm exploring.</p>
+                <p className='text-lg leading-7 mb-6 '>I'm a Software Engineering student at the University of Guelph, with a passion for building clean, useful, and creative software. I specialize in full-stack development and web development. Right now, I'm working on a personal investment portfolio assistant, a smart web application I'm co-building to help people make smart investment decisions.</p>
                 <p className='text-lg leading-7 '>When I'm not building, I like playing basketball, and football, watching movies and TV shows, or working on new project ideas. I'm currently looking for opportunities where I can grow, learn, contribute, and work with inspiring people.</p>
                 <div className='mt-5'>
                     <h1 className='font-bold text-2xl mb-5 text-blue-400'>Skills</h1>
