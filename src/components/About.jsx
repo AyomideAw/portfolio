@@ -1,5 +1,5 @@
 import React from 'react'
-import PFP1 from '../assets/PFP22.png'
+import PFP1 from '../assets/PFP55.png'
 import { FaChevronRight } from 'react-icons/fa'
 
 const About = () => {
