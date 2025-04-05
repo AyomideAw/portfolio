@@ -8,7 +8,7 @@ const Contact = () => {
         e.preventDefault()
       
         emailjs.sendForm(
-          'service_qanbihe',       // 🔁 Replace with actual values
+          'service_qanbihe',       //Replace with actual values
           'template_icbpcia',
           formRef.current,
           'fzWyuulLldbQwIAFB'
