@@ -19,7 +19,7 @@ const Project = () => {
             description: "A simple calculator application built using React and JavaScript to simulate real-time arithmetic operations. Users can perform basic and scientific calculations with a responsive UI that updates dynamically. Focused on state management, operator handling, and user-friendly input logic using component-based design.",
             techStack: ["React.js", "tkinter", "JavaScript", "CSS"],
             link: "file:///Users/ayomide_aw/Desktop/CIS2750/FinalAssignment/8ball/snooker.html",
-            github: 'https://github.com/AyomideAw/To-Do-List',
+            github: 'https://github.com/AyomideAw/calculator',
             image: calc,
         },
         {
