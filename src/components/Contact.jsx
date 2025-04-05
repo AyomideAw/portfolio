@@ -47,8 +47,8 @@ const Contact = () => {
                     <div>
                         <h3 className='text-2xl font-semibold text-gray-300'>Find me on here!</h3>
                         <div className='flex gap-3 text-2xl transition-all mt-5'>
-                            <a href="https://www.linkedin.com/in/ayomide-awofisayo-a64a082a9/"> <FaLinkedin className='text-blue-400 hover:text-blue-400' /></a>
-                            <a href="https://github.com/AyomideAw"><FaGithub className='text-blue-400 hover:text-blue-400'/></a>
+                            <a href="https://www.linkedin.com/in/ayomide-awofisayo-a64a082a9/" target='_blank'> <FaLinkedin className='text-blue-400 hover:text-blue-400' /></a>
+                            <a href="https://github.com/AyomideAw" target='_blank'><FaGithub className='text-blue-400 hover:text-blue-400'/></a>
                         </div>
                     </div>
                 </div>
