@@ -22,14 +22,14 @@ const Project = () => {
             github: 'https://github.com/AyomideAw/calculator',
             image: calc,
         },
-        {
-            title: "8ball",
-            description: "A simple 2-player 8-ball pool game simulation built using code logic to mimic real pool gameplay. Players take turns aiming and pocketing balls, with win conditions based on standard 8-ball rules. Focused on turn-based mechanics, ball tracking, and basic physics",
-            techStack: ["Python", "C", "SQL", "HTML", "CSS"],
-            link: "file:///Users/ayomide_aw/Desktop/CIS2750/FinalAssignment/8ball/snooker.html",
-            github: 'https://github.com/AyomideAw/8ball',
-            image: pool,
-        },
+        // {
+        //     title: "8ball",
+        //     description: "A simple 2-player 8-ball pool game simulation built using code logic to mimic real pool gameplay. Players take turns aiming and pocketing balls, with win conditions based on standard 8-ball rules. Focused on turn-based mechanics, ball tracking, and basic physics",
+        //     techStack: ["Python", "C", "SQL", "HTML", "CSS"],
+        //     link: "file:///Users/ayomide_aw/Desktop/CIS2750/FinalAssignment/8ball/snooker.html",
+        //     github: 'https://github.com/AyomideAw/8ball',
+        //     image: pool,
+        // },
         // {
         //     title: "",
         //     description: "",
