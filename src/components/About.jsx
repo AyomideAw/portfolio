@@ -26,10 +26,14 @@ const About = () => {
                         <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full hover:shadow-xl transition-transform transform hover:-translate-y-2'>React</p>
                         <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full hover:shadow-xl transition-transform transform hover:-translate-y-2'>C/C++</p>
                         <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full hover:shadow-xl transition-transform transform hover:-translate-y-2'>Typescript</p>
+                        <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full hover:shadow-xl transition-transform transform hover:-translate-y-2'>RESTful API</p>
                         <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full hover:shadow-xl transition-transform transform hover:-translate-y-2'>PostgreSQL</p>
                         <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full hover:shadow-xl transition-transform transform hover:-translate-y-2'>HTML</p>
                         <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full hover:shadow-xl transition-transform transform hover:-translate-y-2'>CSS</p>
                         <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full hover:shadow-xl transition-transform transform hover:-translate-y-2'>R</p>
+                        <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full hover:shadow-xl transition-transform transform hover:-translate-y-2'>COBOL</p>
+                        <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full hover:shadow-xl transition-transform transform hover:-translate-y-2'>FORTRAN</p>
+                        <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full hover:shadow-xl transition-transform transform hover:-translate-y-2'>Ada</p>
                     </div>
                     <a href="#contact">
                     <button className='px-3 py-1 rounded-md bg-blue-500 text-white flex items-center gap-1'>Contact<FaChevronRight/></button>
