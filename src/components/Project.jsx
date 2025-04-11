@@ -3,6 +3,7 @@ import pool from '../assets/pool.png'
 import HT from '../assets/HT.png'
 import TODO from '../assets/TODO.png'
 import calc from '../assets/calc.png'
+import mon from '../assets/MON.png'
 import { FaGithub } from 'react-icons/fa'
 
 const Project = () => {
@@ -39,6 +40,14 @@ const Project = () => {
             github: 'https://github.com/AyomideAw/calculator',
             image: calc,
         },
+        {
+            title: "The Monitor",
+            description: "A user-centered health application designed in Figma to support patients managing incurable diseases. Focused on intuitive UX/UI design through research-driven prototyping, real-time feedback loops, and collaborative iteration. Prioritized accessibility, ease of use, and impactful feature visualization to enhance daily health management and user satisfaction.",
+            techStack: ["Figma", "UI/UX"],
+            link: "https://www.figma.com/proto/VBAyoESY6nnKQJxT1LXZvO/The-Monitor?node-id=22-11&p=f&t=T0IuTD3xgDmCcQFM-1&scaling=scale-down&content-scaling=fixed&page-id=22%3A10",
+            //github: 'https://github.com/AyomideAw/calculator',
+            image: mon,
+        },
         // {
         //     title: "8ball",
         //     description: "A simple 2-player 8-ball pool game simulation built using code logic to mimic real pool gameplay. Players take turns aiming and pocketing balls, with win conditions based on standard 8-ball rules. Focused on turn-based mechanics, ball tracking, and basic physics",
@@ -74,7 +83,9 @@ const Project = () => {
                             </div>
                             <div className='flex gap-3'>
                                 <a href={project.link} target='_blank' rel='noopener noreferrer' className='inline-block bg-blue-500 text-white px-6 py-2 rounded-lg shadow-md hover:bg-blue-600 transition-colors'>View Project</a>
-                                <a href={project.github} target='_blank' rel='noopener noreferrer' className='flex gap-2 items-center bg-gray-950 text-white px-6 py-2 rounded-lg shadow-md hover:bg-gray-800 transition-colors'><FaGithub/>Github</a>
+                                {project.github && (
+                                    <a href={project.github} target='_blank' rel='noopener noreferrer' className='flex gap-2 items-center bg-gray-950 text-white px-6 py-2 rounded-lg shadow-md hover:bg-gray-800 transition-colors'><FaGithub/>Github</a>
+                                )}
                             </div>
                         </div>
                     </div>
