@@ -42,7 +42,7 @@ const Project = () => {
         },
         {
             title: "The Monitor",
-            description: "A user-centered health application designed in Figma to support patients managing incurable diseases. Focused on intuitive UX/UI design through research-driven prototyping, real-time feedback loops, and collaborative iteration. Prioritized accessibility, ease of use, and impactful feature visualization to enhance daily health management and user satisfaction.",
+            description: "A user-centered health application designed in Figma to support patients managing incurable diseases. Focused on intuitive UI/UX design through research-driven prototyping, real-time feedback loops, and collaborative iteration. Prioritized accessibility, ease of use, and impactful feature visualization to enhance daily health management and user satisfaction.",
             techStack: ["Figma", "UI/UX"],
             link: "https://www.figma.com/proto/VBAyoESY6nnKQJxT1LXZvO/The-Monitor?node-id=22-11&p=f&t=T0IuTD3xgDmCcQFM-1&scaling=scale-down&content-scaling=fixed&page-id=22%3A10",
             //github: 'https://github.com/AyomideAw/calculator',
