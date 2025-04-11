@@ -3,7 +3,7 @@ import pool from '../assets/pool.png'
 import HT from '../assets/HT.png'
 import TODO from '../assets/TODO.png'
 import calc from '../assets/calc.png'
-import mon from '../assets/MON.png'
+import mon from '../assets/mon.png'
 import { FaGithub } from 'react-icons/fa'
 
 const Project = () => {
