@@ -1,11 +1,28 @@
 import React from 'react'
 import pool from '../assets/pool.png'
+import HT from '../assets/HT.png'
 import TODO from '../assets/TODO.png'
 import calc from '../assets/calc.png'
 import { FaGithub } from 'react-icons/fa'
 
 const Project = () => {
     const projects = [
+        // {
+        //     title: "H&T Growth Index",
+        //     description: "A regional data visualization tool built to display real-time employment and housing trends across the Toronto-Hamilton corridor. Developed with a focus on accuracy and usability, the H&T Growth Index presents key metrics such as participation rates, unemployment, sectoral employment, housing stats, and completions. Designed for policymakers, developers, and urban planners, the platform delivers up-to-date insights to support data-driven decision-making in both public and private sectors. Emphasis on clear visuals, reliable datasets, and regional relevance ensures the tool supports impactful planning and development initiatives.",
+        //     techStack: ["Python", "JavaScript", "Java", "RESTful API", "TypeScript", "SQL"],
+        //     link: "https://sheltrix.socs.uoguelph.ca",
+        //     github: 'https://github.com/AyomideAw/Metrohousing',
+        //     image: HT,
+        // },
+        {
+            title: "H&T Growth Index",
+            description: "A regional data visualization tool built using Python to display real-time housing and employment trends in the Toronto-Hamilton area. Users can explore metrics like unemployment rates, housing starts, and sectoral employment. Focused on clean visuals, reliable datasets, and decision-making support for planners and developers.",
+            techStack: ["Python", "JavaScript", "Java", "RESTful API", "TypeScript", "SQL"],
+            link: "https://sheltrix.socs.uoguelph.ca",
+            github: 'https://github.com/AyomideAw/Metrohousing',
+            image: HT,
+        },
         {
             title: "To-Do",
             description: "A simple desktop To-Do List application built using Python's Tkinter library. Users can add, view, and delete tasks in a clean, user-friendly interface. Task data is stored locally using a text file, enabling persistence between sessions. Focused on functional design, basic file I/O operations, and interactive UI layout with buttons and listboxes.",
