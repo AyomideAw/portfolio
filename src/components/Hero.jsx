@@ -108,7 +108,7 @@ const Hero = () => {
           initial={{opacity:0, x:-100}}
           whileInView={{opacity:1, x:0}}
           transition={{duration:1.4, delay:0.5}}
-          className='px-3 py-2 flex items-center gap-2 bg-blue-500 rounded-md text-white hover:bg-blue-600 shadow-blue-500 border-2 border-blue-400 transition-all shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#33CCCC,0_0_15px_#33CCCC,0_0_30px_#33CCCC] '><a href='https://drive.google.com/file/d/1O-IF2cvp3N3mgjgZehzJi-4WK6NnfLRS/view?usp=sharing' target='_blank'>View Resume</a></motion.button>
+          className='px-3 py-2 flex items-center gap-2 bg-blue-500 rounded-md text-white hover:bg-blue-600 shadow-blue-500 border-2 border-blue-400 transition-all shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#33CCCC,0_0_15px_#33CCCC,0_0_30px_#33CCCC] '><a href='https://drive.google.com/file/d/15GXrrgikh_d8U7NLDU7_l_uMntA_ajUk/view?usp=sharing' target='_blank'>View Resume</a></motion.button>
           <div className='flex gap-3 text-2xl transition-all mt-5 md:mt-0'>
             <a href="https://www.linkedin.com/in/ayomide-awofisayo-a64a082a9/" target='_blank'><FaLinkedin className='hover:text-blue-400' /></a>
             <a href="https://github.com/AyomideAw" target='_blank'><FaGithub className='hover:text-blue-400' /></a>
