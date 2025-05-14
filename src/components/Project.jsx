@@ -6,6 +6,7 @@ import calc from '../assets/calc.png'
 import mon from '../assets/mon.png'
 import sign from '../assets/SignLang.png'
 import connect from '../assets/connect4.png'
+import ZipTrip from '../assets/ZipTrip.png'
 import { FaGithub } from 'react-icons/fa'
 
 
@@ -25,6 +26,15 @@ const Project = () => {
         //     github: 'https://github.com/AyomideAw/Metrohousing',
         //     image: HT,
         // },
+        {
+            title: "ZipTrip",
+            description: "An AI-powered travel assistant built with React, Node.js, and Firebase, designed to generate personalized packing checklists based on real-time trip context. ZipTrip uses Google’s Gemini API to create intelligent item suggestions by analyzing destination, trip duration, purpose, and weather data. The application features secure authentication via Firebase Auth, real-time data storage with Firestore, and a sleek, responsive frontend built with Vite and Tailwind CSS. Designed for travelers seeking efficient planning, ZipTrip highlights the practical application of generative AI in everyday decision-making.",
+            techStack: ["JavaScript", "Java", "GeminiAPI", "Node.js", "Express.js", "React", "TailwindCSS", "Firebase", "Firestore"],
+            //link: "https://sheltrix.socs.uoguelph.ca",
+            github: 'https://github.com/AyomideAw/ZipTrip',
+            status: "Completed",
+            image: ZipTrip,
+        },
         {
             title: "C0NN3CT4",
             description: "A self-learning Connect Four AI built using Python and reinforcement learning, designed to master gameplay through self-play without any pre-existing data. The system uses Q-learning and deep Q-networks (DQN) to improve over time, tracking win/loss/draw performance. Users can challenge the trained agent through a sleek web interface powered by React and FastAPI, showcasing human-AI interaction, strategic decision-making, and real-time model inference.",
