@@ -30,7 +30,7 @@ const Project = () => {
             title: "ZipTrip",
             description: "An AI-powered travel assistant built with React, Node.js, and Firebase, designed to generate personalized packing checklists based on real-time trip context. ZipTrip uses Google’s Gemini API to create intelligent item suggestions by analyzing destination, trip duration, purpose, and weather data. The application features secure authentication via Firebase Auth, real-time data storage with Firestore, and a sleek, responsive frontend built with Vite and Tailwind CSS. Designed for travelers seeking efficient planning, ZipTrip highlights the practical application of generative AI in everyday decision-making.",
             techStack: ["JavaScript", "Java", "GeminiAPI", "Node.js", "Express.js", "React", "TailwindCSS", "Firebase", "Firestore"],
-            //link: "https://sheltrix.socs.uoguelph.ca",
+            link: "https://zip-trip-main.vercel.app/",
             github: 'https://github.com/AyomideAw/ZipTrip',
             status: "Completed",
             image: ZipTrip,
