@@ -16,7 +16,7 @@ const Experience = () => {
             role: "IT Support Specialist",
             company: "University of Guelph",
             year: "Aug 2024 - present",
-            description: "Delivered comprehensive technical support by diagnosing and resolving a wide range of issues",
+            description: "Delivered Tier 1 and Tier 2 support to over 50 university staff and students weekly, resolving issues related to email configuration, network access, and hardware performance.",
             icon: "💻",
         },
         // {

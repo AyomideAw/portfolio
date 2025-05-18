@@ -103,7 +103,7 @@ const Hero = () => {
           initial={{opacity:0, x:-100}}
           whileInView={{opacity:1, x:0}}
           transition={{duration:1.4, delay:0.5}}
-          className='lg:w-[600px] mb-4 md:mb-0 text-sm text-gray-300'>I'm a Software Engineering Student with a passion for full-stack development and project management. Currently contributing as an IT Support specialist at the University of Guelph, and I'm eager to explore opportunities that push me to create impactful and engaging digital experiences.</motion.p>
+          className='lg:w-[600px] mb-4 md:mb-0 text-sm text-gray-300'>I'm a Software Engineering student with a passion for full-stack development, project management, and the transformative potential of AI and machine learning. Currently contributing as an IT Support Specialist at the University of Guelph, I'm eager to explore opportunities that push me to create impactful and intelligent digital experiences.</motion.p>
           <motion.button 
           initial={{opacity:0, x:-100}}
           whileInView={{opacity:1, x:0}}

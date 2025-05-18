@@ -32,9 +32,12 @@ const About = () => {
                         <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full hover:shadow-xl transition-transform transform hover:-translate-y-2'>Express.js</p>
                         <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full hover:shadow-xl transition-transform transform hover:-translate-y-2'>GeminiAPI</p>
                         <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full hover:shadow-xl transition-transform transform hover:-translate-y-2'>Typescript</p>
+                        <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full hover:shadow-xl transition-transform transform hover:-translate-y-2'>Google Vision API</p>
                         <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full hover:shadow-xl transition-transform transform hover:-translate-y-2'>RESTful API</p>
                         <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full hover:shadow-xl transition-transform transform hover:-translate-y-2'>PostgreSQL</p>
                         <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full hover:shadow-xl transition-transform transform hover:-translate-y-2'>TensorFlow</p>
+                        <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full hover:shadow-xl transition-transform transform hover:-translate-y-2'>Move</p>
+                        <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full hover:shadow-xl transition-transform transform hover:-translate-y-2'>zkLogin SDK</p>
                         <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full hover:shadow-xl transition-transform transform hover:-translate-y-2'>OpenCV</p>
                         <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full hover:shadow-xl transition-transform transform hover:-translate-y-2'>HTML</p>
                         <p className='bg-gray-900 cursor-pointer text-gray-300 px-2 py-1 rounded-full hover:shadow-xl transition-transform transform hover:-translate-y-2'>CSS</p>

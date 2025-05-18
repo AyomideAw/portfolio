@@ -7,6 +7,7 @@ import mon from '../assets/mon.png'
 import sign from '../assets/SignLang.png'
 import connect from '../assets/connect4.png'
 import ZipTrip from '../assets/ZipTrip.png'
+import spLITTY from '../assets/spLITTY.png'
 import { FaGithub } from 'react-icons/fa'
 
 
@@ -27,8 +28,17 @@ const Project = () => {
         //     image: HT,
         // },
         {
+            title: "spLITTY",
+            description: "An AI-powered crypto bill splitter and debt settler built with React, Firebase, and Aptos. spLITTY allows users to split group expenses using natural language or scanned receipts, leveraging Gemini API and Google Vision OCR for intelligent parsing. It features walletless onboarding via Aptos zkLogin, enabling seamless blockchain interaction without browser extensions. With real-time data handling through Firestore, on-chain settlement via Move smart contracts, and a responsive UI styled with Tailwind CSS and Vite, spLITTY showcases the power of AI and Web3 in simplifying everyday financial coordination.",
+            techStack: ["JavaScript", "React", "TailwindCSS", "Firebase", "Firestore", "Aptos", "Move", "zkLogin SDK", "Gemini API", "Google Vision API"],
+            //link: "https://zip-trip-main.vercel.app/",
+            github: 'https://github.com/AyomideAw/spLITTY',
+            status: "Testing",
+            image: spLITTY,
+        },
+        {
             title: "ZipTrip",
-            description: "An AI-powered travel assistant built with React, Node.js, and Firebase, designed to generate personalized packing checklists based on real-time trip context. ZipTrip uses Google’s Gemini API to create intelligent item suggestions by analyzing destination, trip duration, purpose, and weather data. The application features secure authentication via Firebase Auth, real-time data storage with Firestore, and a sleek, responsive frontend built with Vite and Tailwind CSS. Designed for travelers seeking efficient planning, ZipTrip highlights the practical application of generative AI in everyday decision-making.",
+            description: "An AI-powered travel assistant built with React, Node.js, and Firebase, designed to generate personalized packing checklists based on real-time trip context. ZipTrip uses Google's Gemini API to create intelligent item suggestions by analyzing destination, trip duration, purpose, and weather data. The application features secure authentication via Firebase Auth, real-time data storage with Firestore, and a sleek, responsive frontend built with Vite and Tailwind CSS. Designed for travelers seeking efficient planning, ZipTrip highlights the practical application of generative AI in everyday decision-making.",
             techStack: ["JavaScript", "Java", "GeminiAPI", "Node.js", "Express.js", "React", "TailwindCSS", "Firebase", "Firestore"],
             link: "https://zip-trip-main.vercel.app/",
             github: 'https://github.com/AyomideAw/ZipTrip',
@@ -119,6 +129,7 @@ const Project = () => {
                                 ${project.status === 'Completed' ? 'bg-green-600 text-white' : ''}
                                 ${project.status === 'In Progress' ? 'bg-yellow-500 text-black' : ''}
                                 ${project.status === 'Discontinued' ? 'bg-red-600 text-white' : ''}
+                                ${project.status === 'Testing' ? 'bg-blue-300 text-black' : ''}
                             `}>
                             {project.status}
                             </div>
