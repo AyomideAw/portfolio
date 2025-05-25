@@ -29,7 +29,7 @@ const Project = () => {
         // },
         {
             title: "spLITTY",
-            description: "An AI-powered crypto bill splitter and debt settler built with React, Firebase, and Aptos. spLITTY allows users to split group expenses using natural language or scanned receipts, leveraging Gemini API and Google Vision OCR for intelligent parsing. It features walletless onboarding via Aptos zkLogin, enabling seamless blockchain interaction without browser extensions. With real-time data handling through Firestore, on-chain settlement via Move smart contracts, and a responsive UI styled with Tailwind CSS and Vite, spLITTY showcases the power of AI and Web3 in simplifying everyday financial coordination.",
+            description: "An AI-powered crypto bill splitter and debt settler built with React, Firebase, and Aptos. spLITTY allows users to split group expenses using natural language or scanned receipts, leveraging Gemini API and Google Vision API for intelligent parsing. It features walletless onboarding via Aptos zkLogin, enabling seamless blockchain interaction without browser extensions. With real-time data handling through Firestore, on-chain settlement via Move smart contracts, and a responsive UI styled with Tailwind CSS and Vite, spLITTY showcases the power of AI and Web3 in simplifying everyday financial coordination.",
             techStack: ["JavaScript", "React", "TailwindCSS", "Firebase", "Firestore", "Aptos", "Move", "zkLogin SDK", "Gemini API", "Google Vision API"],
             //link: "https://zip-trip-main.vercel.app/",
             github: 'https://github.com/AyomideAw/spLITTY',
