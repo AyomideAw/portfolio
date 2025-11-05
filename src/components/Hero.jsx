@@ -65,7 +65,7 @@
 // export default Hero
 
 import React from 'react'
-import Profile from '../assets/profile.png'
+import Profile from '../assets/profile.jpg'
 import { FaDownload, FaGithub, FaLinkedin } from 'react-icons/fa'
 // import { Download } from 'lucide-react'
 import { motion } from 'framer-motion'
